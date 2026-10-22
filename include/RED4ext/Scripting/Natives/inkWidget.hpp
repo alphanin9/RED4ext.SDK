@@ -57,6 +57,7 @@ struct Widget : IScriptable
     bool isInteractive;                                           // 1FB
     bool affectsLayoutWhenHidden;                                 // 1FC
     uint8_t flags;                                                // 1FD
+    uint8_t unk1FE[0x210 - 0x1FE];                                // 1FE
 };
-RED4EXT_ASSERT_SIZE(Widget, 0x200);
+RED4EXT_ASSERT_SIZE(Widget, 0x210);
 } // namespace RED4ext::ink
