@@ -151,7 +151,7 @@ constexpr std::uint32_t ISerializable_sub_30 = 0x6D63649;
 constexpr std::uint32_t ISerializable_sub_40 = 0x88B30FF9;
 constexpr std::uint32_t ISerializable_sub_78 = 0xA1D93993;
 constexpr std::uint32_t ISerializable_sub_A0 = 0xED221B32;
-constexpr std::uint32_t ISerializable_sub_C0 = 0x55B4219C;
+constexpr std::uint32_t ISerializable_sub_C0 = 0xDBE91251;
 constexpr std::uint32_t ISerializable_Counter = 2630817091;
 #pragma endregion
 

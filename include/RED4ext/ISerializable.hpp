@@ -51,7 +51,7 @@ struct ISerializable
     virtual CClass* sub_A8();                                                           // A8
     virtual void sub_B0(void* a1);                                                      // B0
     virtual CString sub_B8();                                                           // B8
-    virtual void* sub_C0(void* a1, void* a2);                                           // C0
+    virtual void* sub_C0(void* a1);                                                     // C0
     virtual void* sub_C8(void* a1);                                                     // C8
     virtual bool CanBeDestructed();                                                     // D0
 

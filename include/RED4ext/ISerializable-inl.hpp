@@ -136,11 +136,11 @@ RED4EXT_INLINE RED4ext::CString RED4ext::ISerializable::sub_B8()
     return name.ToString();
 }
 
-RED4EXT_INLINE void* RED4ext::ISerializable::sub_C0(void* a1, void* a2)
+RED4EXT_INLINE void* RED4ext::ISerializable::sub_C0(void* a1)
 {
-    using func_t = void* (*)(ISerializable*, void*, void*);
+    using func_t = void* (*)(ISerializable*, void*);
     static UniversalRelocFunc<func_t> func(Detail::AddressHashes::ISerializable_sub_C0);
-    return func(this, a1, a2);
+    return func(this, a1);
 }
 
 RED4EXT_INLINE void* RED4ext::ISerializable::sub_C8(void* a1)
